@@ -1,0 +1,97 @@
+#rod1,#rod2
+{
+    position:fixed;
+    width:200px;
+    left:45%;
+    height:auto;
+    border-radius: 30px;
+    margin: 1px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+
+body
+{
+    background: blue;
+    /* background: linear-gradient(45deg,green,turquoise); */
+}
+
+#ball
+{
+    border-radius: 50%;
+    background-color: darkorange;
+    height:20px;
+    width: 20px;
+    position:fixed;
+    top:3.6%;
+    left:51%;
+    z-index: 10;
+}
+#rod1
+{
+    box-shadow: 0px 0px 5px 2px maroon;
+    background-color: darkred;
+    top:0;
+}
+
+#rod2
+{
+    box-shadow: 0px 0px 5px 2px darkviolet;
+    background-color:indigo;
+    bottom: 0px;
+}
+
+.mid-line
+{
+    position: absolute;
+    top:47%;
+    left:0;
+    margin: 0;
+    border-top:10px solid white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.mid-line-circle
+{
+    z-index: 5;
+    position: absolute;
+    top:39%;
+    border: 2px dashed white;
+    background-color:transparent;
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    left:46%;
+}
+
+#scoreboard
+{
+    position: absolute;
+    height:auto;
+    width:250px;
+    /* border:1px solid darkgreen; */
+    box-shadow: 0px 0px 3px 1px green;
+    top:12%;
+    left:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    color:lightgrey;
+}
+
+.display-winner
+{
+    width:80%;
+    height:20px;
+    background-color:seagreen;
+    box-shadow: 0px 0px 3px 1px lightseagreen;
+    color:whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+}
